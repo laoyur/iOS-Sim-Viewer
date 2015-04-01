@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B36492B819EE084700430A9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B36492B719EE084700430A9D /* main.m */; };
+		B36492BB19EE084700430A9D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B36492BA19EE084700430A9D /* AppDelegate.m */; };
+		B36492BD19EE084700430A9D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B36492BC19EE084700430A9D /* Images.xcassets */; };
+		B36492C019EE084700430A9D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B36492BE19EE084700430A9D /* MainMenu.xib */; };
+		B36492CC19EE084700430A9D /* iOS_Sim_ViewerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B36492CB19EE084700430A9D /* iOS_Sim_ViewerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B36492C619EE084700430A9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B36492AA19EE084700430A9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B36492B119EE084700430A9D;
+			remoteInfo = "iOS-Sim-Viewer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B36492B219EE084700430A9D /* iOS-Sim-Viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Sim-Viewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B36492B619EE084700430A9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B36492B719EE084700430A9D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B36492B919EE084700430A9D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B36492BA19EE084700430A9D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B36492BC19EE084700430A9D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B36492BF19EE084700430A9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B36492C519EE084700430A9D /* iOS-Sim-ViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-Sim-ViewerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B36492CA19EE084700430A9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B36492CB19EE084700430A9D /* iOS_Sim_ViewerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_Sim_ViewerTests.m; sourceTree = "<group>"; };
+		B36492D619EE3A2100430A9D /* iOS-Sim-Viewer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "iOS-Sim-Viewer.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B36492AF19EE084700430A9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B36492C219EE084700430A9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B36492A919EE084700430A9D = {
+			isa = PBXGroup;
+			children = (
+				B36492B419EE084700430A9D /* iOS-Sim-Viewer */,
+				B36492C819EE084700430A9D /* iOS-Sim-ViewerTests */,
+				B36492B319EE084700430A9D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B36492B319EE084700430A9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B36492B219EE084700430A9D /* iOS-Sim-Viewer.app */,
+				B36492C519EE084700430A9D /* iOS-Sim-ViewerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B36492B419EE084700430A9D /* iOS-Sim-Viewer */ = {
+			isa = PBXGroup;
+			children = (
+				B36492D619EE3A2100430A9D /* iOS-Sim-Viewer.entitlements */,
+				B36492B919EE084700430A9D /* AppDelegate.h */,
+				B36492BA19EE084700430A9D /* AppDelegate.m */,
+				B36492BC19EE084700430A9D /* Images.xcassets */,
+				B36492BE19EE084700430A9D /* MainMenu.xib */,
+				B36492B519EE084700430A9D /* Supporting Files */,
+			);
+			path = "iOS-Sim-Viewer";
+			sourceTree = "<group>";
+		};
+		B36492B519EE084700430A9D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B36492B619EE084700430A9D /* Info.plist */,
+				B36492B719EE084700430A9D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B36492C819EE084700430A9D /* iOS-Sim-ViewerTests */ = {
+			isa = PBXGroup;
+			children = (
+				B36492CB19EE084700430A9D /* iOS_Sim_ViewerTests.m */,
+				B36492C919EE084700430A9D /* Supporting Files */,
+			);
+			path = "iOS-Sim-ViewerTests";
+			sourceTree = "<group>";
+		};
+		B36492C919EE084700430A9D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B36492CA19EE084700430A9D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B36492B119EE084700430A9D /* iOS-Sim-Viewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B36492CF19EE084700430A9D /* Build configuration list for PBXNativeTarget "iOS-Sim-Viewer" */;
+			buildPhases = (
+				B36492AE19EE084700430A9D /* Sources */,
+				B36492AF19EE084700430A9D /* Frameworks */,
+				B36492B019EE084700430A9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS-Sim-Viewer";
+			productName = "iOS-Sim-Viewer";
+			productReference = B36492B219EE084700430A9D /* iOS-Sim-Viewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B36492C419EE084700430A9D /* iOS-Sim-ViewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B36492D219EE084700430A9D /* Build configuration list for PBXNativeTarget "iOS-Sim-ViewerTests" */;
+			buildPhases = (
+				B36492C119EE084700430A9D /* Sources */,
+				B36492C219EE084700430A9D /* Frameworks */,
+				B36492C319EE084700430A9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B36492C719EE084700430A9D /* PBXTargetDependency */,
+			);
+			name = "iOS-Sim-ViewerTests";
+			productName = "iOS-Sim-ViewerTests";
+			productReference = B36492C519EE084700430A9D /* iOS-Sim-ViewerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B36492AA19EE084700430A9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = laoyur;
+				TargetAttributes = {
+					B36492B119EE084700430A9D = {
+						CreatedOnToolsVersion = 6.0.1;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+					B36492C419EE084700430A9D = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = B36492B119EE084700430A9D;
+					};
+				};
+			};
+			buildConfigurationList = B36492AD19EE084700430A9D /* Build configuration list for PBXProject "iOS-Sim-Viewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B36492A919EE084700430A9D;
+			productRefGroup = B36492B319EE084700430A9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B36492B119EE084700430A9D /* iOS-Sim-Viewer */,
+				B36492C419EE084700430A9D /* iOS-Sim-ViewerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B36492B019EE084700430A9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B36492BD19EE084700430A9D /* Images.xcassets in Resources */,
+				B36492C019EE084700430A9D /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B36492C319EE084700430A9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B36492AE19EE084700430A9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B36492BB19EE084700430A9D /* AppDelegate.m in Sources */,
+				B36492B819EE084700430A9D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B36492C119EE084700430A9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B36492CC19EE084700430A9D /* iOS_Sim_ViewerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B36492C719EE084700430A9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B36492B119EE084700430A9D /* iOS-Sim-Viewer */;
+			targetProxy = B36492C619EE084700430A9D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B36492BE19EE084700430A9D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B36492BF19EE084700430A9D /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B36492CD19EE084700430A9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B36492CE19EE084700430A9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B36492D019EE084700430A9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "iOS-Sim-Viewer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B36492D119EE084700430A9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "iOS-Sim-Viewer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B36492D319EE084700430A9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iOS-Sim-ViewerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-Sim-Viewer.app/Contents/MacOS/iOS-Sim-Viewer";
+			};
+			name = Debug;
+		};
+		B36492D419EE084700430A9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iOS-Sim-ViewerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-Sim-Viewer.app/Contents/MacOS/iOS-Sim-Viewer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B36492AD19EE084700430A9D /* Build configuration list for PBXProject "iOS-Sim-Viewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B36492CD19EE084700430A9D /* Debug */,
+				B36492CE19EE084700430A9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B36492CF19EE084700430A9D /* Build configuration list for PBXNativeTarget "iOS-Sim-Viewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B36492D019EE084700430A9D /* Debug */,
+				B36492D119EE084700430A9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B36492D219EE084700430A9D /* Build configuration list for PBXNativeTarget "iOS-Sim-ViewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B36492D319EE084700430A9D /* Debug */,
+				B36492D419EE084700430A9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B36492AA19EE084700430A9D /* Project object */;
+}
